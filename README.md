@@ -38,25 +38,24 @@ python main.py
 ## Project Structure
 
 ```
-ML_titanic_problem/
+titanic_project/
 ├── data/
-│   ├── train.csv              # Training dataset
-│   ├── test.csv               # Test dataset
-│   └── gender_submission.csv  # Sample submission
 ├── src/
-│   ├── __init__.py
-│   ├── preprocess.py          # Data preprocessing utilities
-│   ├── train_model.py         # Model training script
-│   └── predict.py             # Prediction script
-├── notebooks/
-│   └── eda.ipynb              # Exploratory analysis notebook
-├── models/
-│   └── model.pkl              # Saved model
-├── titanic_solution.py        # Complete 15-step solution ⭐
-├── REPORT.md                  # Detailed analysis report
-├── requirements.txt           # Python dependencies
-├── main.py                    # Main execution script
-└── README.md                  # This file
+│   ├── data/
+│   │   ├── loader.py
+│   │   └── preprocessing.py
+│   ├── features/
+│   │   └── engineering.py
+│   ├── models/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   └── optimize.py
+│   ├── visualization/
+│   │   └── eda.py
+│   └── utils/
+│       └── config.py
+├── main.py
+└── requirements.txt
 ```
 
 ## 15-Step Methodology
