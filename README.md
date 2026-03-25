@@ -206,4 +206,4 @@ Contributions are welcome:
 
 ---
 
-- **Team**: Mohamed SABR, Abdejlil SALMI, Soufaine ZEKAOUI, Anass LAMHADAR, Aymane ELMOUD
+- **Team**: Mohamed SABR, Abdejlil SALMI, Soufaine ZEKAOUI, Anass LAMHADAR
